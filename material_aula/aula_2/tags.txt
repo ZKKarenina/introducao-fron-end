@@ -1,0 +1,179 @@
+SOPA DE LETRINHAS!
+
+As tags usadas no html:
+Caros alunos, não é necessário decorar essas tags, usem essa lista como um dicionário que pode ser acessado por vocês. Conforme a aprendizagem avança, é possivel que vocês mesmos incluam mais tags.
+
+<h1> Inicia um título
+</1> Fecha um título
+
+<h2> Inicia um subtítulo
+</h2> Fecha um subtítulo
+
+<p> Inicia um parágrafo
+</p> Fecha um parágrafo
+
+<html> </html> Informa ao navegador que o conteúdo do arquivo é html.
+
+<head> </head> Recebe informações sobre a página web, como seu título.
+	 O cabeçalho permite que se diga ao navegador coisas sobre a página web.
+
+<title> </title> Os title ficam dentro da head. O título normalmente aparece no topo da janela do navegador.
+
+ATENÇÃO: O cabeçalho consiste das tags <head></head> e de tudo que está dentro delas.
+
+<body> </body>É o corpo e tudo o que esta dentro dele. Sendo assim, o corpo contém o conteúdo e estrutura da página web, as partes que vemos no computador.
+
+ATENÇÃO: Mantenha o cabeçalho e o corpo separados quando escrever seu html.
+
+ATENÇÃO: Um ELEMENTO consiste de tags e de conteúdo entre eles.
+Elemento= <tag de abertura> + conteúdo + </tag de fechamento>.
+  Ex.: <h1> Starbuzz Coffee Beverages </h1>
+
+<style> </style> Informa ao navegador o tipo de estilo que se está utilizando.
+  Como serão usadas as CSS, é necessário especificar o tipo text/css.
+  <style></style> também precisa do atributo chamado type. É ele quem informa ao navegador o tipo de estilo que se esta utilizando.
+  Os atributos são uma maneira de oferecer informações adicionais sobre um elemento.
+  O elemento "style" permite que se diga exatamente de que tipo de estilo esta se falando.
+
+<a> </a> O elemento <a href="link de destino.html"></a> é usado para criar um link para outra página.
+  O conteúdo do elemento <a> funciona como uma legenda para o link. No browser, a legenda aparece sublinhada para indicar que se pode clicar neste local.
+	O atributo href é a maneira como se especifica o destino do link
+	O que o browser faz:
+		Durante a recuperação da página, se o browser encontrar um elemento <a>, exibira o conteúdo do elemento como um link.
+		O conteúdo do elemento <a> torna-se clicável na página web.
+
+Sobre atributos:
+	Atributos oferecem uma maneira de especificar informações adicionais sobre um elemento.
+	Alguns atributos como exemplo:
+		<style type="text/css">: O atributo type especifca qual linguagem de estilo estamos utilizando - neste caso CSS.
+		<a href="irule.html">: O atributo href nos informa qual é o destino de um hiperlink.
+		<img src=sweetphoto.gif>: O atributo src especifica o nome do arquivo da figura que uma tag img exibe.
+	Com atributos podemos personalizar o elemento com todos os tipos de informação.
+	Atributos são sempre escritos da mesma forma:
+		Nome do atributo
+		Sinal de igualdade
+		Valor do atributo entre aspas
+
+.. Quando se precisa dizer ao browser que o arquivo para o qual esta criando o link está na pasta pai, utiliza-se o "..". Isso significa "SUBA até a pasta pai"
+
+<q> </q>Colocamos citações entre as tags de abertura <q> e de fechamento </q>. Não colocamos as citações entre aspas.
+
+<blockquote> </blockquote> Criado para citações maiores que precisam ser exibidas separadamente.
+
+Elementos block-level
+	Elementos HTML (Linguagem de marcação de hipertexto) historicamente foram categorizados como “nível de bloco” ou elementos “em linha”. Um elemento em nível de bloco ocupa todo o espaço de seu elemento pai (container), criando assim um “bloco”.
+	Navegadores normalmente mostram o elemento em nível de bloco com uma nova linha antes e depois do elemento.
+		Exemplo:Elementos em nível de bloco
+			<p>Este parágrafo é um elemento block-level elemento pai do parágrafo.</p>
+
+Nível-de-bloco vs. em-linha
+	Existem algumas diferenças importantes entre os elementos no nível do bloco e os elementos em linha:
+
+	Modelo de conteúdo:
+		Geralmente, os elementos no nível de bloco podem conter elementos em linha e, às vezes, outros elementos no nível de bloco. Inerente a essa distinção estrutural está a idéia de que elementos de bloco criam estruturas "maiores" que elementos em linha.
+
+	Formatação padrão:
+		Por padrão, os elementos no nível de bloco começam em novas linhas, mas, os elementos em linha, podem iniciar em qualquer lugar.
+		A distinção entre elementos em nível de bloco e elementos em linha foi usada nas especificações HTML até 4.01. No HTML5, essa distinção binária é substituída por um conjunto mais complexo de categorias de conteúdo. Enquanto a categoria "em linha" corresponde aproximadamente à categoria de conteúdo de frases, a categoria "nível de bloco" não corresponde diretamente a nenhuma categoria de conteúdo HTML5. Mas, os elementos "nível de bloco" e "embutido" combinados, correspondem ao conteúdo de fluxo, em HTML5. Existem também categorias adicionais, por exemplo conteúdo interativo.
+
+		Elementos
+			Lista completa de todos os elementos no nível de bloco HTML (embora "nível de bloco" não esteja tecnicamente definido para elementos novos no HTML5).
+
+				<address> Informação de contato.
+				<article> HTML5 Conteúdo do artigo.
+				<aside> HTML5 Conteúdo lateral.
+				<blockquote> Citação longa ("bloco").
+				<details> Widget de divulgação.
+				<dialog> Caixa de diálogo.
+				<dd> Descreve um termo em uma lista de descrição.
+				<div> Divisão de conteúdo.
+				<dl> Lista de descrição.
+				<fieldset> Rótulo de conjunto de campos.
+				<figcaption> HTML5 Legenda da figura.
+				<figure> HTML5 Groups media content with a caption (see <figcaption>).
+				<footer> HTML5 Section or page footer.
+				<form> Input form.
+				<h1> (en-US), <h2> (en-US), <h3> (en-US), <h4> (en-US), <h5> (en-US), <h6> (en-US) Heading levels 1-6.
+				<header> HTML5 Section or page header.
+				<hgroup> HTML5 Groups header information.
+				<hr> Horizontal rule (dividing line).
+				<li> List item.
+				<main> Contains the central content unique to this document.
+				<nav> Contains navigation links.
+				<ol> Ordered list.
+				<p> Paragraph.
+				<pre> Preformatted text.
+				<section> HTML5 Section of a web page.
+				<table> Table.
+				<tfoot> Table footer.
+				<ul> Unordered list.
+				<video> HTML5 Video player.
+
+Elementos em linha
+	Categorização dos elementos do HTML, em contraste com os "elementos de bloco". Os elementos em linha podem ser exibidos em nível de bloco ou outros elementos em linha. Eles ocupam somente a largura de seu conteúdo. A diferença entre elementos inline e bloco incluem:
+		Modelo de conteúdo
+			Geralmente, elementos em linha devem ter somente dados em outros elementos em linha.
+		Formato
+			Por padrão, os elementos em linha não começam em uma nova linha.
+
+	Elementos
+		Listagem dos elementos em linha:
+
+			b, big, i, small, tt
+			abbr, acronym, cite, code, dfn, em, kbd, strong, samp, var
+			a, bdo, br, img, map, object, q, script, span, sub, sup
+			button, input, label, select, textarea
+
+	Dica: Elementos do bloco se viram sozinhos e elementos em linha seguem o fluxo.
+	Elementos de bloco são usados como blocos de construção da página web.
+	Elementos em linha marcam pequenos pedaços do conteúdo.
+	Quando se começa a desenhar a página, normalmente se começará por pedaços maiores (os elementos de bloco) e então adicionará os elementos em linha à medida que for refinando a página.
+
+<br>Usado quando se quer quebrar o fluxo e inserir uma quebra de linha. NÃO possui </br>. Ele só foi criado para ser uma quebra de linha, nada mais. Portanto, quando um elemento não possui qualquer conteúdo real, usamos apenas um atalho para representá-lo e ele termina como o elemento <br>.
+
+<li> </li>Serve para criação de listas no texto. São aquelas "bolinhas" que aparecem no começo da linha. É diferente de <br> que apenas quebra a linha.
+
+<ol> </ol> Exibem a lista de uma forma mais bem ordenada. Eles envolvem <li></li>. Com lista ordenada <ol></ol>, não é necessário numerar a lista
+
+<ul> </ul>Apresenta a lista de forma desordenada. Também envolvem <li></li>.
+
+title sem <></> como sendo um atributo de <a>, serve para dar legendas aos links quando passamos o mouse por cima destes. Pode ter reações diferentes dependendo do browser.
+
+O atributo "id" leva para um ponto específico em uma página.
+
+<img> É um elemento em linha que não gera quebras de linha antes ou depois do seu aparecimento.
+	O atributo src especifica o local do arquivo da imagem a ser incluída na página web.
+	<img> é um elemento vazio.
+
+<meta> Fica no elemento <head> e dá ao browser informaçõe adcionais sobre uma página web, como o tipo de conteúdo e a codificação de caracteres.
+	Lembre-se: <head> contém todas as informações sobre a página.
+
+<aside> Use este elemento para o conteúdo que está a parte do conteúdo principal, como uma barra lateral ou uma citação destacada.
+
+<mark> Serve para destacar trechos de texto.
+
+<audio> Use este para incluir conteúdo de som em sua página.
+
+<time> O elemento time é um horário, uma data ou ambos. Ex.: 21 de janeiro às 02:00.
+
+<progress> Precisa mostrar o progresso em uma tarefa, como "90% concluído".
+
+<footer> Define o rodapé de uma seção ou de um documento.
+
+<meter> Exibe a medida de uma distancia. Como exemplo, um termômetro de 0 a 100.
+
+<article> Para marcar conteúdo como notícias ou posts de blogs que são conteúdo autocontidos.
+
+<canvas> Usado para exibir em sua página gráficos e animações desenhados com JavaScript.
+
+<section> Use este elemento para definir as principais seções de seu documento.
+
+<header> Elemento para seções com cabeçalhos ou para o cabeçalho de um documento.
+
+<video> Elemento para icluir um vídeo na página.
+
+<nav> Elemento para agrupar links usados para navegação no site.
+
+<figure> Elemento para definir conteúdo autocontido como uma foto, um diagrama ou até mesmo uma listagem de código.
+
+

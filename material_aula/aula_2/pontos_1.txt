@@ -1,0 +1,33 @@
+Pontos de Bala parte 1:
+
+#HTML E CSS são as linguagens que utilizamos para criar páginas web.
+
+#Os servidores web armazenam e servem páginas web, que são criadas com HTML e CSS. OS navegadores recuperam as páginas e mostram seu conteúdo com base nas
+HTML e CSS.
+
+#HTML é uma abreviação de HyperText Markup Language (Linguagem de Criação de Hipertexto), e é usada para estruturar sua página web.
+
+#CSS é a abreviação de Cascafing Style Sheets (Folhas de Estilo em Cascata), e são utilizadas para controlar a apresentação do HTML.
+
+#Usando o HTML, marcamos o conteúdo com tags para oferecer a estrutura. Chamamos de tags correspondentes e seu conteúdo de "elementos".
+
+# Um elemento é composto de três partes: Uma <tag de abertura>, conteúdo e uma </tag de fechamento>. Há alguns elementos, como <img> que são excessão a essa
+regra.
+
+# As tags de abertura podem ter atributos, como por exemplo: type.
+
+#As tags de fechamento possuem um "/" após o sinal de menor, na frente do nome da tag para distingui-las das tags de abertura.
+
+#Sua página deve sempre possuir um elemento <html> em conjunto com um elemento <head> e um elemento <body>.
+
+#As informações sobre página web ficam no elemento <head>.
+
+#O que se coloca no elemento <body> é o que verá no navegador.
+
+#Quase todos os espaços em branco (tabulações, retorno, espaço) são ignorados pelo navegador, mas é bom utilizá-los para tornar o documento.html mais
+legível.
+
+#As CSS podem ser adicionadas à página web colocando-se suas regras dentro do elemento <style>. O elemento <style> deve estar sempre dentro do elemento
+<body>.//Não do texto mas do <Head>. Cuidado para não confundir.
+
+#Nós é quem especificamos as características do estilo dos elementos em seu HTML utilizando o CSS.

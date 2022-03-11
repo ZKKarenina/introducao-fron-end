@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Doce Manu</title>
+</head>
+<body>
+<h1>Missão da Manu Doces</h1>
+Fornecer os melhores sabores finos, caros e exclusivos, para adoçar a sua vida. Não deixe de aproveitar nossas ofertas e promoções.
+Os melhores chocolates do Brasil estão aqui na Manu Doces.
+Preço competitivo e sabores exclusivos. Do jeito que nossos clientes gostam!
+Servimos bem para servimos sempre! Este é nosso maior negócio!
+Aprecie sem moderação.
+</body>
+</html>

@@ -1,0 +1,27 @@
+#Quando você deseja vincular uma página a outra, utilize o elemento <a>.
+
+#O atributo href do elemento <a> especificca o destino do link.
+
+#O conteúdo do elemento <a> é a legenda para o link. A legenda é aquilo que se vê na página web. Por padrão, ela é sublinhada para indicar que se pode clicar naquele local.
+
+#Pode-se usar palavras ou imagens como legenda de um link.
+
+#Quando se clica em um link, o browser carrega a página web especificada no atributo href.
+
+#É possível criar links para arquivos que estejam na mesma pasta ou para arquivos que estejam em outras pastas.
+
+#Um caminho relativo é um link que aponta para outros arquivos em seu site web, relativos a página web que será a origem do link. Assim como em um mapa, o destino é relativo ao ponto de partida.
+
+#Utilize ".." para criar um link para um arquivo que esteja em uma pasta acima do arquivo de origem.
+
+#".." significa "pasta pai".
+
+#Lembre-se de separar as partes de seu caminho com o caractere "/".
+
+#Quando seu caminho para uma figura estiver incorreto, aparecerá uma figura partida em sua página web (já aconteceu comigo).
+
+#Não use espaços em nomes quando estiver escolhendo-os para arquivos e pastas do site web.
+
+#É uma boa ideia organizar os arquivos do site web no início do processo de criação do site para que não se tenha que se alterar um monte de caminhos mais tarde, quando o site já tiver crescido.
+
+#Há várias maneiras de se organizar um site web; como se fazer é uma escolha de cada desenvolvedor (ou de seu chefe).
